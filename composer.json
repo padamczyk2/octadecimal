@@ -1,6 +1,22 @@
 {
-    "require": {
-        "twbs/bootstrap": "^5.1",
-        "components/jquery": "^3.6"
+  "name": "antoine.molina/amotasks",
+  "authors": [
+    {
+      "name": "Piotr Adamczyk",
+      "email": "piotr.adamczyk@octadecimal.pl"
     }
+  ],
+  "require": {
+    "twig/twig": "^3.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/",
+      "Models\\": "models/",
+      "Repositories\\": "repositories/",
+      "Utils\\": "utils/",
+      "Controllers\\": "controllers/"
+    }
+  }
 }
