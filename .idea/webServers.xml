@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2bd8b219-0cad-4830-bd7c-ab721f98ef3a" name="serwer2266263.home.pl" url="http://serwer2266263.home.pl">
+        <fileTransfer rootFolder="/home/octadecimal/public_html/octadecimal.pl" accessType="SFTP" host="serwer2266263.home.pl" port="22222" sshConfigId="282f84ec-33de-4535-a0f4-f006ba67070d" sshConfig="octadecimal@octadecimal.pl@serwer2266263.home.pl:22222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
